@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=S.AS Nick Machine
+
+[Package|S.AS Nick Machine|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\AdministratorMaster\Desktop\MY S.AS Nick Machine\S.AS Setup
+
+[Package|S.AS Nick Machine|Configure DAO ISAMs]
+Applicable=No
+
+[Package|S.AS Nick Machine|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|S.AS Nick Machine|Files Found]
+
+[Package|S.AS Nick Machine|Files Released]
+
+[Package|S.AS Nick Machine|Missing Dependency Information]
+C:\WINNT\system32\shlwapi.dll=
+
+[Package|S.AS Nick Machine|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\Comdlg32.ocx=
+
+[Package|S.AS Nick Machine|Files Added]
+
+[Package|S.AS Nick Machine|Files Removed]
+
+[Package|S.AS Nick Machine|Files In Project]
+C:\Documents and Settings\AdministratorMaster\Desktop\MY S.AS Nick Machine\S.AS File EXE\S.AS Nick Machine.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\shlwapi.dll=Yes
+C:\WINNT\system32\actskin4.ocx=Yes
+C:\WINNT\Speech\Xvoice.dll=Yes
+C:\Program Files\Messenger\msmsgs.exe=Yes
+C:\WINNT\system32\Comdlg32.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Dustibn\Windows Media\Msn.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=Yes
+C:\WINNT\system32\SysTray.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|S.AS Nick Machine|Configure Registry Files]
+Applicable=No
+
+[Package|S.AS Nick Machine|Configure Remote Servers]
+Applicable=No
+
+[Package|S.AS Nick Machine|Install Locations]
+C:\Documents and Settings\AdministratorMaster\Desktop\MY S.AS Nick Machine\S.AS File EXE\S.AS Nick Machine.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\shlwapi.dll=$(WinSysPath)
+C:\WINNT\system32\actskin4.ocx=$(WinSysPath)
+C:\WINNT\Speech\Xvoice.dll=$(WinSysPath)
+C:\Program Files\Messenger\msmsgs.exe=$(AppPath)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Dustibn\Windows Media\Msn.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=$(WinSysPath)
+C:\WINNT\system32\SysTray.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|S.AS Nick Machine|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\AdministratorMaster\Desktop\MY S.AS Nick Machine\S.AS File EXE\S.AS Nick Machine.exe=No
+C:\Program Files\Messenger\msmsgs.exe=No
+
+[Package|S.AS Nick Machine|Distribution]
+Type=single
+Size=
+Title=S.AS Nick Machine
+
+[Package|S.AS Nick Machine|IconGroups]
+Group0=S.AS Nick Machine
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|S.AS Nick Machine|S.AS Nick Machine]
+Icon1="S.AS Nick Machine.exe"
+Title1=S.AS Nick Machine
+StartIn1=$(AppPath)
+Key1=Icon1

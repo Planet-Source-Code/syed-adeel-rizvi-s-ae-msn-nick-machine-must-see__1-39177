@@ -1,0 +1,214 @@
+[Root]
+Most Recent Package=Micro Nick Machine
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=
+C:\WINNT\Speech\Xvoice.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\Comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\AdministratorMaster\Desktop\Micro Nick Machine.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\actskin4.ocx=Yes
+C:\WINNT\Speech\Xvoice.dll=Yes
+C:\Program Files\Messenger\msmsgs.exe=Yes
+C:\WINNT\system32\Comdlg32.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Dustibn\Windows Media\Msn.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=Yes
+C:\WINNT\system32\SysTray.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\AdministratorMaster\Desktop\Micro Nick Machine.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\actskin4.ocx=$(WinSysPath)
+C:\WINNT\Speech\Xvoice.dll=$(WinSysPath)
+C:\Program Files\Messenger\msmsgs.exe=$(AppPath)
+C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Dustibn\Windows Media\Msn.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=$(WinSysPath)
+C:\WINNT\system32\SysTray.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\AdministratorMaster\Desktop\Micro Nick Machine.exe=No
+C:\Program Files\Messenger\msmsgs.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Micro Nick Machine
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Setup
+ProjectFolder=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine
+ServerSideCab=
+File1=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Setup\setup.exe
+File2=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Setup\Setup.Lst
+File3=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Setup\Micro Nick Machine.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Micro Nick Machine
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Micro Nick Machine]
+Icon1="Micro Nick Machine.exe"
+Title1=Micro Nick Machine
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Micro Nick Machine|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Project\Setup
+
+[Package|Micro Nick Machine|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Micro Nick Machine|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Micro Nick Machine|Files Found]
+
+[Package|Micro Nick Machine|Files Released]
+
+[Package|Micro Nick Machine|Missing Dependency Information]
+
+[Package|Micro Nick Machine|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\Comdlg32.ocx=
+
+[Package|Micro Nick Machine|Files Added]
+
+[Package|Micro Nick Machine|Files Removed]
+
+[Package|Micro Nick Machine|Files In Project]
+C:\Documents and Settings\AdministratorMaster\Desktop\Micro Nick Machine.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\actskin4.ocx=Yes
+C:\WINNT\Speech\Xvoice.dll=Yes
+C:\Program Files\Messenger\msmsgs.exe=Yes
+C:\WINNT\system32\Comdlg32.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Dustibn\Windows Media\Msn.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=Yes
+C:\WINNT\system32\SysTray.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Micro Nick Machine|Configure Registry Files]
+Applicable=No
+
+[Package|Micro Nick Machine|Configure Remote Servers]
+Applicable=No
+
+[Package|Micro Nick Machine|Install Locations]
+C:\Documents and Settings\AdministratorMaster\Desktop\Micro Nick Machine.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\actskin4.ocx=$(WinSysPath)
+C:\WINNT\Speech\Xvoice.dll=$(WinSysPath)
+C:\Program Files\Messenger\msmsgs.exe=$(AppPath)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Dustibn\Windows Media\Msn.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\System Tray Controls.ocx=$(WinSysPath)
+C:\WINNT\system32\SysTray.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Micro Nick Machine|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\AdministratorMaster\Desktop\Micro Nick Machine.exe=No
+C:\Program Files\Messenger\msmsgs.exe=No
+
+[Package|Micro Nick Machine|Distribution]
+Type=single
+Size=
+Title=Micro Nick Machine
+
+[Package|Micro Nick Machine|IconGroups]
+Group0=Micro Nick Machine
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Micro Nick Machine|Micro Nick Machine]
+Icon1="Micro Nick Machine.exe"
+Title1=Micro Nick Machine
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Micro Nick Machine|Package]
+PackageFolder=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Project\Setup
+ProjectFolder=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine
+ServerSideCab=
+File1=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Project\Setup\setup.exe
+File2=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Project\Setup\Setup.Lst
+File3=C:\Documents and Settings\AdministratorMaster\Desktop\Master OF VB SYED ADEEL THINGS TO DO\Micro Nick Machine\Project\Setup\Micro Nick Machine.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
